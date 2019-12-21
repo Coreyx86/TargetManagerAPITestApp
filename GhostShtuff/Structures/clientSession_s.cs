@@ -101,7 +101,7 @@ namespace GhostShtuff
             {
                 string tmp = value;
 
-                if (tmp.Length < 32)
+                if (tmp.Length > 32)
                 {
                     tmp = tmp.Substring(0, 32);
                 }

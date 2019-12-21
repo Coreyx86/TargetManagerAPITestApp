@@ -8,7 +8,7 @@
         Title="Fuck Da Oppz" Height="368.096" Width="531.694">
     <Grid>
         <Button x:Name="btnConnect" Content="Connect PS3" HorizontalAlignment="Left" Margin="18,23,0,0" VerticalAlignment="Top" Width="118" Height="35" Click="BtnConnect_Click"/>
-        <Button x:Name="btnTest" Content="Run Test" HorizontalAlignment="Left" Margin="18,63,0,0" VerticalAlignment="Top" Width="118" Height="35"/>
+        <Button x:Name="btnTest" Content="Run Test" HorizontalAlignment="Left" Margin="18,63,0,0" VerticalAlignment="Top" Width="118" Height="35" Click="btnTest_Click"/>
         <RichTextBox x:Name="txtOutput" HorizontalAlignment="Left" Height="199" Margin="18,128,0,0" VerticalAlignment="Top" Width="488">
             <FlowDocument>
                 <Paragraph>
@@ -17,6 +17,7 @@
             </FlowDocument>
         </RichTextBox>
         <Label Content="Debug Output:" HorizontalAlignment="Left" Margin="18,103,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTest" HorizontalAlignment="Left" Height="18" Margin="141,80,0,0" TextWrapping="Wrap" Text="^1C^2u^3r^4r^5e^6y^8S^1a^2u^3x" VerticalAlignment="Top" Width="170"/>
 
     </Grid>
 </Window>
