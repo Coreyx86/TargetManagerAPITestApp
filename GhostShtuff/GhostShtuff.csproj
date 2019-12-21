@@ -62,9 +62,17 @@
     </ApplicationDefinition>
     <Compile Include="Manager.cs" />
     <Compile Include="Modules\Logging.cs" />
-    <Compile Include="Modules\PS3.cs" />
-    <Compile Include="Structures\GClient.cs" />
+    <Compile Include="Modules\Helper.cs" />
+    <Compile Include="Structures\clientSession_s.cs" />
+    <Compile Include="Structures\clientState_s.cs" />
+    <Compile Include="Structures\Definitions.cs" />
+    <Compile Include="Structures\gclient_s.cs" />
+    <Compile Include="Structures\hudData_s.cs" />
     <Compile Include="Structures\playerState_s.cs" />
+    <Compile Include="Structures\playerTeamState_t.cs" />
+    <Compile Include="Structures\usercmd_s.cs" />
+    <Compile Include="Structures\viewClamp.cs" />
+    <Compile Include="Structures\viewClampState.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
