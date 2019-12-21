@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using PS3Lib;
+using GhostShtuff.Modules;
 
 namespace GhostShtuff
 {
@@ -20,6 +21,9 @@ namespace GhostShtuff
         public PS3API PS3 { get; set; }
 
         public Definitions def { get; set; }
+        public RPC RPC { get; set; }
+
+        public bool initiated;
 
         private Manager()
         {

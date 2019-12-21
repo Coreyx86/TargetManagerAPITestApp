@@ -63,6 +63,7 @@
     <Compile Include="Manager.cs" />
     <Compile Include="Modules\Logging.cs" />
     <Compile Include="Modules\Helper.cs" />
+    <Compile Include="Modules\RPC.cs" />
     <Compile Include="Structures\clientSession_s.cs" />
     <Compile Include="Structures\clientState_s.cs" />
     <Compile Include="Structures\Definitions.cs" />
