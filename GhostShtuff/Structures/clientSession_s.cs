@@ -199,7 +199,7 @@ namespace GhostShtuff
         {
             this.BASE = BASE;
             this._cmd = new usercmd_s(BASE + 0x20);
-            this._cmd = new usercmd_s(BASE + 0x48);
+            this._oldCmd = new usercmd_s(BASE + 0x48);
             this._teamState = new playerTeamState_t(BASE + 0xB2);
             this._cs = new clientState_s(BASE + 0xCE);
         }
