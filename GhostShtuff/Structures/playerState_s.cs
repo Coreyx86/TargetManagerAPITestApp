@@ -574,7 +574,11 @@ namespace GhostShtuff
             }
         }  // 0x370
 
-        public hudData_s hud; // 0x848
+        //public hudData_s
+        public byte[] hud
+        {
+            get { return Manager.Instance.PS3.Extension.ReadBytes(BASE + 0x848, 0x2944); }
+        } // 0x848
 
         public byte[] padding15
         {
