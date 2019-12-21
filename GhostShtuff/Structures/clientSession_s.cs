@@ -198,10 +198,10 @@ namespace GhostShtuff
         public clientSession_s(uint BASE)
         {
             this.BASE = BASE;
-            this._cmd = new usercmd_s(BASE + 0x3200);
-            this._cmd = new usercmd_s(BASE + );
-            this._teamState = new playerTeamState_t();
-            this._cs = new clientState_s();
+            this._cmd = new usercmd_s(BASE + 0x20);
+            this._cmd = new usercmd_s(BASE + 0x48);
+            this._teamState = new playerTeamState_t(BASE + 0xB2);
+            this._cs = new clientState_s(BASE + 0xCE);
         }
     }
 }
