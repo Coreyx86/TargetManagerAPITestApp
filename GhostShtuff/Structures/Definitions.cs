@@ -53,5 +53,19 @@ namespace GhostShtuff
             ET_VEHICLE_CORPSE = 0x10,
             ET_VEHICLE_SPAWNER = 0x11
         };
+
+        public enum trType_t
+        {
+            TR_STATIONARY,
+            TR_INTERPOLATE,
+            TR_LINEAR,
+            TR_LINEAR_STOP,
+            TR_SINE,
+            TR_GRAVITY,
+            TR_ACCELERATE,
+            TR_DECELERATE,
+            TR_PHYSICS,
+            TR_RAGDOLL
+        };
     }
 }
