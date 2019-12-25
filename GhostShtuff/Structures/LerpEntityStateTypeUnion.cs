@@ -312,7 +312,7 @@ namespace GhostShtuff
                         break;
                     }
 
-                    Manager.Instance.PS3.Extension.WriteInt32(BASE + 0x00 + (i * 0x4));
+                    Manager.Instance.PS3.Extension.WriteInt32(BASE + 0x00 + (i * 0x4), v);
                     i++;
                 }
             }

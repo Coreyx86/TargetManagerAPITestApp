@@ -12,8 +12,8 @@ namespace GhostShtuff
 
         public int eFlags
         {
-            get { return Manager.Instance.PS3.ReadInt32(BASE + 0x0C); }
-            set { Manager.Instance.PS3.WriteInt32(BASE + 0x0C, value); }
+            get { return Manager.Instance.PS3.Extension.ReadInt32(BASE + 0x0C); }
+            set { Manager.Instance.PS3.Extension.WriteInt32(BASE + 0x0C, value); }
         } // 0x0
 
         public trajectory_t pos { get; set; } // 0x4

@@ -8,7 +8,7 @@ namespace GhostShtuff
 {
     public class gentity_union
     {
-        item_ent_t item[2];
+        item_ent_t item;
         trigger_ent_t trigger;
         mover_ent_t mover;
         corpse_ent_t corpse;

@@ -38,6 +38,7 @@
   <ItemGroup>
     <Reference Include="PS3Lib">
       <HintPath>..\..\..\PS3Lib-4.5.1\bin\PS3Lib.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -66,15 +67,23 @@
     <Compile Include="Modules\RPC.cs" />
     <Compile Include="Structures\clientSession_s.cs" />
     <Compile Include="Structures\clientState_s.cs" />
+    <Compile Include="Structures\corpse_ent_t.cs" />
     <Compile Include="Structures\Definitions.cs" />
+    <Compile Include="Structures\entityState_s.cs" />
     <Compile Include="Structures\gclient_s.cs" />
     <Compile Include="Structures\gentity_s.cs" />
     <Compile Include="Structures\hudData_s.cs" />
+    <Compile Include="Structures\item_ent_t.cs" />
+    <Compile Include="Structures\LerpEntityState.cs" />
+    <Compile Include="Structures\LerpEntityStateTypeUnion.cs" />
+    <Compile Include="Structures\mover_ent_t.cs" />
     <Compile Include="Structures\playerState_s.cs" />
     <Compile Include="Structures\playerTeamState_t.cs" />
+    <Compile Include="Structures\trigger_ent_t.cs" />
     <Compile Include="Structures\usercmd_s.cs" />
     <Compile Include="Structures\viewClamp.cs" />
     <Compile Include="Structures\viewClampState.cs" />
+    <Compile Include="trajectory_t.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
